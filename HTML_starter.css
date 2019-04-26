@@ -1,0 +1,39 @@
+/*  Author: Jacob Storer
+    Last Updated: March 4th, 2019
+    Description: Stylin' for HTML_starter.html
+*/
+/* Imports */
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Krub');
+
+/* Extra small devices (portrait phones, less than 576px) */
+
+aside ul {
+  display: flex;
+}
+
+aside ul section {
+  border: inset;
+  margin-right: 15px;
+  padding: 15px;
+}
+
+/* Note: Everything above here should be style'd as if it were less than 576px screen size. Below is where you insert special conditions */
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+}
