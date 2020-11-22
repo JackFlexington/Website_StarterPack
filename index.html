@@ -3,30 +3,32 @@
 <head> <!-- Meta information -->
 <title>HTML Starter</title> <!-- Title for document -->
 
-<link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/503982088064729098/552160596167098377/34e4e74f-ec8b-4d00-82b4-1f0bb7674373.png" type="image/x-icon"> <!-- Site's favicon -->
+<!-- OWO favicon -->
+<link rel="icon" href="images/owo.png" type="image/png"> <!-- Site's favicon -->
 
 <!-- Page Description (SEO stuff) -->
-<meta name="author" content="Jacob Storer"> <!-- Author -->
-<meta name="title" content="HTML Template"> <!-- Title -->
+<meta name="author" content="JackFlexington"> <!-- Author -->
+<meta name="title" content="HTML Starter"> <!-- Title -->
 <meta name="description" content="Describe web page here"> <!-- Description -->
 <meta name="keywords" content="fill, in, keywords, here"> <!-- Keywords -->
 <meta charset="utf-8"> <!-- Charset -->
 
 <!-- Site Defaults -->
 <!-- Automatically start web links from here -->
-<!-- <base href="file:///Users/Jacob/Desktop/HTMLgithub/"> -->
+<!-- <base href=""> -->
 
 <!-- Styles -->
 <link rel="stylesheet" type="text/css" href="css/defaults.css"> <!-- CSS Stylin' -->
-<link rel="stylesheet" type="text/css" href="css/HTML_starter.css"> <!-- CSS Stylin' -->
+<link rel="stylesheet" type="text/css" href="css/index.css"> <!-- CSS Stylin' -->
 
 </head>
 <body> <!-- Web page content -->
-  <header><h1>HTML5 Starter</h1></header> <!-- Page heading -->
+  <header><h1>Start page header element</h1></header> <!-- Page heading -->
   <!-- Navigation menu -->
   <nav>
+    <h2>Site Navigation section (Start of typical web page navigation)</h2>
     <ul>
-      <li><a href="placeholder.html">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="placeholder.html">Our team</a></li>
       <li><a href="placeholder.html">Projects</a></li>
       <li><a href="placeholder.html">Contact</a></li>
@@ -41,18 +43,18 @@
   <main>
     <!-- Article -->
     <article>
-      <h2>Document explained</h2>
+      <h2>Site Article section (Start of typical web page unique content)</h2>
       <h3>Overview</h3>
       <p>This document contains a <em>great</em> starting point to build off of. As it adhere's to most of the web standards from the beginning.</p>
       <p>By having the basic structure of the appropriate HTML formatted, you can focus more on the content you create rather than making sure you're including all of the necessary meta tags and what nots.</p>
     </article>
     <!-- Aside for extra information -->
     <aside>
-      <h2>Not directly related content</h2>
+      <h2>Site Aside section (Start of typical web page extra-related information)</h2>
       <ul>
         <section>
           <h3>Personal Links</h3>
-          <li><a href="placeholder.html">Our home page</a></li>
+          <li><a href="index.html">Our home page</a></li>
           <li><a href="placeholder.html">Our past projects</a></li>
           <li><a href="placeholder.html">Author Biography</a></li>
         </section>
@@ -65,33 +67,44 @@
       </ul>
     </aside>
   </main>
+  <!-- Website footer element -->
   <footer>
     <h2>Information</h2>
-    <p><strong>Site Author: </strong>Jacob Storer</p>
-    <p><strong>Contact: </strong>jacobstr117@gmail.com</p>
+    <p><strong>Site Author: </strong>JackFlexington</p>
+    <p><strong>Contact: </strong>jack@gmail.com</p>
     <p><strong>Language: </strong>English</p>
-    <p><strong>Last updated: </strong>March 4th, 2019</p>
+    <p><strong>Last updated: </strong> 11/22/2020 (MM/DD/YYYY)</p>
     <p><a href="placeholder.html">Terms and Conditions</a></p>
     <p><a href="placeholder.html">Accessibility Information</a></p>
   </footer>
+<!-- In-document use of Javascript -->
 <script>
-"use strict"
-console.log("~JavaScript strict mode enabled..")
-// Declarations
-  //var a,b,c;
+"use strict"; // Enforce Javascript to warn developer of "soon-to-deprecate" feature of Javascript.
+console.log("~JavaScript strict mode enabled.."); // Output to console
+// Variables
+let a,b,c;
+
 // Functions
-function setUpPage(NULL) {
-  console.log("~setUpPage function initializing..")
-  // Does nothing...
-}
+function pageLoad(NULL) {
+  console.log("~pageLoad function initializing..");
+
+  // Primary script logic
+  a = 10;
+  b = 20;
+  c = a + b;
+
+  console.log("Basic arithmetic result = " + String(c)); // Output console message
+  console.log("End of pageLoad() function...");
+} // End "pageLoad()" function
+
 // Event Listeners
 if (window.addEventListener) {
-  console.log("~addEventListener: Entered condition: Mozilla Firefox, Google Chrome and any other modern browser.");
-  window.addEventListener("load", setUpPage, false);
+  console.log("~addEventListener (index.html)");
+  window.addEventListener("load", pageLoad, false);
 } else if (window.attachEvent) {
-  console.log("~attachEvent: Entered condition: Is Internet Explorer variant.");
-  window.attachEvent("onload", setUpPage);
-}
+  console.log("~attachEvent (index.html)");
+  window.attachEvent("onload", pageLoad);
+} // End of event listener
 </script>
 </body>
 </html>
