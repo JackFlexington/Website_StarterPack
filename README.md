@@ -25,5 +25,5 @@ targetElement.value = "New Value";
 [W3schools CSS stylin'](https://www.w3schools.com/css/default.asp)
 [W3schools Javascript logic](https://www.w3schools.com/js/default.asp)
 
-## Letter to you
-I appreciate your time in reviewing this repo.
+## What to expect "out-of-box"
+![Image of how template looks](https://)
