@@ -29,10 +29,26 @@ targetElement = document.getElementById("something");
 // Reassign its value
 targetElement.value = "New Value";
 ```
-## Reference material:
+## Reference material
+Note: I've added some other sources, but by far Mozilla Firefox documentation is second to none IMHO. You could probably pick up everything you needed from their reference documentation.
+W3schools (Great for examples of scenarios).
 * [W3schools HTML elements](https://www.w3schools.com/html/default.asp)
 * [W3schools CSS stylin'](https://www.w3schools.com/css/default.asp)
 * [W3schools Javascript logic](https://www.w3schools.com/js/default.asp)
+
+HTML5
+* [What is HTML5 and where does it fit?](https://html.com/html5/)
+* [Mozilla Firefox -- Guide to HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+
+CSS3
+* [Tutorial for using CSS3](https://www.tutorialspoint.com/css/css3_tutorial.htm)
+* [Mozilla Firefox -- Starting with CSS basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+
+Javascript
+* [Mozilla Firefox -- Javascript Documentation](https://developer.mozilla.org/en-US/docs/Web/javascript)
+* [Guide to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
+* [General Javascript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
+* [Form Validation](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Form_validation#Validating_forms_using_JavaScript)
 
 ## What to expect "out-of-box"
 ![Image of how template looks](https://github.com/JackFlexington/Website_StarterPack/blob/update-repo-1/images/starter_image.png)
